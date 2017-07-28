@@ -1,9 +1,11 @@
 master
 ------
 
+* No longer support `rails < 4.2`. [#543]
 * Generate an empty `yarn.lock` so that Heroku understands that the
   application's deployment target requires `yarn`. Closes [#538]. [#540]
 
+[#543]: https://github.com/thoughtbot/ember-cli-rails/pull/543
 [#538]: https://github.com/thoughtbot/ember-cli-rails/issues/538
 [#540]: https://github.com/thoughtbot/ember-cli-rails/pull/540
 
